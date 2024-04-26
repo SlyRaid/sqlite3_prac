@@ -32,13 +32,13 @@ grade - FLOAT
 
 #### Пример работы кода:  
 ###### Код:
-`u1 = University('Urban')  
+u1 = University('Urban')  
 u1.add_student('Ivan', 26) # id - 1  
 u1.add_student('Ilya', 24) # id - 2  
 u1.add_grade(1, 'Python', 4.8)  
 u1.add_grade(2, 'PHP', 4.3)  
 print(u1.get_students())  
-print(u1.get_students('Python'))`
+print(u1.get_students('Python'))
 
 ###### Консоль:
 [(Ivan, 26, Python, 4.8), (Ilya, 24, PHP, 4.3)]
